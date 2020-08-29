@@ -8,6 +8,6 @@ Replace apiKey and apiSecret with your key and secret.
 
 # Getting started
 
-  // To run example
-  npm install
-  npm start
+// To run example
+npm install
+npm start
