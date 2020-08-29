@@ -1,15 +1,19 @@
-# face_plus_plus_helper
+# Face++ Compare Helper
 
-A helper class for Face++ API
-
-Check example.js
-
-Replace apiKey and apiSecret with your key and secret.
+A simple helper class for Face++ Compare API in nodejs.
 
 # Getting started
 
-**To run example**
+To run example,
 
-npm install
+    npm install
 
-npm start
+Open **example.js** to and replace the API_KEY and API_SECRET
+
+    npm start
+
+# Reference
+
+Import the FacePlusPlus module and initialize using FacePlusPlus.initialize(API_KEY, API_SECRET) once.
+
+To call API, FacePlusPlus.match(image1: string, image2: string, options: { type: "url" | "base_64" | "face_token" })
