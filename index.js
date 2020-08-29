@@ -4,8 +4,8 @@ const b64 = require('image-to-base64')
 const SOURCE_DIR = "images/source.jpg";
 const CHECK_DIR = "images/check.jpg";
 
-const API_KEY = "09c5cw_yZhpt0iEfmlJ4caasn4xkYI75";
-const API_SECRET = "WJCVgxnrcEMcKFwAH-TJNCAg8RNpKTVh";
+const API_KEY = "<Your API Key here>";
+const API_SECRET = "<Your API Secret here>";
 
 fpp.initialize(API_KEY, API_SECRET);
 
