@@ -1,0 +1,17 @@
+{
+  "name": "face_plus_plus",
+  "version": "1.0.1",
+  "description": "A helper module to match faces using base64 images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Afridi Kayal",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "form-data": "^3.0.0",
+    "image-to-base64": "^2.1.1",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
