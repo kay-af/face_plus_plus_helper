@@ -16,4 +16,4 @@ Open **example.js** and replace the API_KEY and API_SECRET
 
 Import the FacePlusPlus module and initialize using FacePlusPlus.initialize(API_KEY, API_SECRET) once.
 
-To call API, FacePlusPlus.match(image1: string, image2: string, options: { type: "url" | "base_64" | "face_token" })
+To call API, FacePlusPlus.match(image1: string, image2: string, options: { type1: "url" | "base_64" | "face_token" | "file", type2: "url" | "base_64" | "face_token" | "file" })
