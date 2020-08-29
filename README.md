@@ -8,7 +8,7 @@ To run example,
 
     npm install
 
-Open **example.js** to and replace the API_KEY and API_SECRET
+Open **example.js** and replace the API_KEY and API_SECRET
 
     npm start
 
